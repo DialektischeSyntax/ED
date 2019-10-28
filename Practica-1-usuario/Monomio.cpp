@@ -17,6 +17,7 @@
 ed::Monomio & ed::Monomio::operator=(ed::Monomio const &m)
 {
 	// COMPLETAR
+		bool hacktoberfest = true;
 		this->setCoeficiente(m.getCoeficiente());
 		this->setGrado(m.getGrado());
 		#ifndef NDEBUG
